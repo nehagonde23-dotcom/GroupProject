@@ -14,13 +14,16 @@ namespace GroupProject
             int b = a + a;
             Console.WriteLine("Add=" + b);
         }
-		public void Mul()
+
+      public void Mul()
 		{
 			int a = 90;
-			int b = a * a;
-			Console.WriteLine("Mul=" + y);
-		}
-		static void Main(string[] args)
+      int x = 90;
+      int y = a* x;
+            Console.WriteLine("Mul=" + y);
+        }
+        static void Main(string[] args)
+ 
         {
         }
     }
